@@ -1,0 +1,44 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+}
+
+.description {
+    text-align: center;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+}
+
+.username {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.tag::before {
+    content: '@';
+}
+
+.stats {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 20px;
+    padding: 0;
+}
+
+.label {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.quantity {
+    display: block;
+    font-weight: 700;
+}
